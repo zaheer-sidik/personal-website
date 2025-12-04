@@ -1,0 +1,286 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+\begin{center}
+    \href{https://zaheer-sidik.github.io/personal-website/}
+         {\textbf{\Huge \scshape Zaheer Abbas Sidik}} \\[0.3em]
+    \small 
+    +44 7508 662381 $|$
+    \href{mailto:zaheersidik11@gmail.com}{\underline{zaheersidik11@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/zaheer-sidik}{\underline{linkedin.com/in/zaheer-sidik}}
+\end{center}
+
+
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Oxford}{Keble College, Oxford}
+      {MEng in Engineering Science: Currently ranked in top 13\% of cohort}{Sept. 2022 -- Present}
+      \begin{itemize}[noitemsep]
+      \item Preliminary Examinations: Distinction
+      \item Second Year Examinations: First Class
+      \item Third Year Examinations: First Class
+      \end{itemize}
+  \resumeSubHeadingListEnd
+  \vspace{-0.5cm}
+  
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Parmiter's High School}{Garston, Hertfordshire}
+      {A - Levels:}{Sept. 2020 -- Jun. 2022}
+      \begin{itemize}
+          \item Chemistry, Physics, Maths, Further Maths: A*
+      \end{itemize}
+      \resumeSubSubheading{GCSEs:}{Sept. 2015 -- Jun. 2020}
+      \begin{itemize}[noitemsep, topsep=0pt]
+        \item Chemistry, Physics, Biology, Maths, Geography: 9
+        \item Electronics, Economics, Spanish, English Literature: 8
+        \item English Language: 7
+      \end{itemize}
+  \resumeSubHeadingListEnd
+
+\section{Awards}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Keble College}{University of Oxford}
+      {College Scholarship}{2025 -- 2026}
+      \resumeItemListStart
+        \resumeItem{Awarded the College Scholarship for outstanding academic performance in third-year examinations, achieving a First Class grade.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Keble College}{University of Oxford}
+      {College Scholarship}{2024 -- 2025}
+      \resumeItemListStart
+        \resumeItem{Awarded the College Scholarship for outstanding academic performance in second-year examinations, achieving a First Class grade.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Keble College}{University of Oxford}
+      {College Scholarship}{2023 -- 2024}
+      \resumeItemListStart
+        \resumeItem{Awarded the College Scholarship for exceptional performance in preliminary examinations, achieving a Distinction.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+  
+\section{Research Experience and Projects}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://zaheer-sidik.github.io/Sprint-Time-Predictor/}{Sprint Training Time Predictor}}{}
+      {Personal Project}{}
+      \resumeItemListStart
+        \resumeItem{Developed a machine learning model to predict sprint training times based on historical performance data.}
+        \resumeItem{Implemented data visualization features to track progress and analyze training patterns.}
+        \resumeItem{Deployed the application as an interactive web tool for athletes and coaches.}
+      \resumeItemListEnd
+
+  \resumeSubheading
+      {AVEVA}{July 2025 -- Aug. 2025}
+      {Software Developer - Intern}{Cambridge Science Park}
+      \resumeItemListStart
+        \resumeItem{Implemented a language server within the PML (Programmable Macro Language) VSCode extension and implemented features such as "Go to definition".}
+        \resumeItem{Resolved coverity issues using Polaris.}
+        \resumeItem{Implemented API functionality to allow for a drop down combobox in a RUR (Release Update Request) form.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {University of Oxford}{Oct. 2024 -- June 2025}
+      {Cultured Meat Production - Group Research Project}{Department of Engineering Science, Oxford}
+      \resumeItemListStart
+        \resumeItem{Led the design of the differentiation stage, focusing on bioreactor design for myogenesis and adipogenesis.}
+        \resumeItem{Modelled heat generation within bioreactors using ASPEN Plus to inform reactor wall thickness and jacket sizing.}
+        \resumeItem{Developed the overall material and energy balance for the plant and used it to estimate CapEx and OpEx for financial analysis.}
+        \resumeItem{Performed an optimisation study for plant location and supply chain strategy, assessing supplier networks and sensitivity to disruption.}
+      \resumeItemListEnd
+
+      \resumeSubheading
+      {University of Oxford}{Oct. 2024 -- Jan. 2024}
+      {Sustainable Computing - Research Project}{Department of Engineering Science, Oxford}
+      \resumeItemListStart
+        \resumeItem{Developed models to predict UK carbon intensity on hourly, daily, monthly, and yearly timescales using Facebook's Prophet and LightGBM.}
+        \resumeItem{Analysed national carbon intensity data using quanitative methods to determine optimal periods for running computationally intensive tasks to minimise emissions.}
+        \resumeItem{Characterised the power consumption behaviour of two laptop architectures under machine learning workloads using PowerTOP.}
+        \resumeItem{Produced findings to guide sustainable computing practices through data-driven decision-making.}
+      \resumeItemListEnd
+
+
+
+
+    \resumeSubheading
+      {University of Oxford}{June 2024 -- Aug. 2024}
+      {CFD Analyst - Intern}{Engineering Department, Oxford}
+      \resumeItemListStart
+        \resumeItem{Simulated multiphase flow of Liquid Nitrogen over heatsinks in Power Electronics Applications to model the effects of changing geometry on transistor temperature using Ansys Fluent.}
+        \resumeItem{Generated geometry using Solidworks and Ansys SpaceClaim and analysed results using CFD-Post.}
+        \resumeItem{Utilised command line applications to generate rgp files for the gas properties.}
+      \resumeItemListEnd
+      
+
+    
+  \resumeSubHeadingListEnd
+
+\section{Work Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {ZASTutoring}{Sept. 2021 - Present}
+      {Tutor and Founder}{Online}
+      \resumeItemListStart
+        \resumeItem{Started my own tutoring company to provide affordable high-quality lessons from students at the University of Oxford.}
+        \resumeItem{Employed 2 more tutors to cope with additional demand.}
+        \resumeItem{Developed the skill of teaching and managing a business through social media.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Ryman}{Sept. 2021 -- June. 2022}
+      {Sales Assistant}{Edgware, London}
+      \resumeItemListStart
+        \resumeItem{Worked a part time job during my final years of high school to give myself experience in a working environment.}
+        \resumeItem{Developed communication and time management skills.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+
+\section{Volunteering}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {OUABSoc}{May 2025 -- May 2026}
+      {President}{Oxford University}
+      \resumeItemListStart
+        \resumeItem{Led and organised weekly events.}
+        \resumeItem{Worked as part of a team to hold larger events open to external guests.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+
+%-----------Skill and Interests-----------
+\section{Skills \& Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \vspace{1mm}
+     \textbf{Skills: }{Ansys Fluent, Solidworks, VSCode Language Extensions} \\
+     \vspace{1mm}
+     \textbf{Programming Languages: }{MATLAB, Python, C++, Typescript} \\
+     \vspace{1mm}
+     \textbf{Interests: }{Athletics, Tech, Sustainability, Computational Modelling, Chemical Engineering} \\
+     \textbf{Languages: }{English, Arabic [Limited Proficiency]}
+     \vspace{1mm}
+
+    }}
+ \end{itemize}
+
+
+\end{document}
